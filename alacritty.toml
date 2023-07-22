@@ -1,0 +1,12 @@
+import = ["~/.config/alacritty/rose-pine-moon.toml"]
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+# family = "BlexMono Nerd Font"
+style = "Regular"
+
+[shell]
+program = "/bin/bash"
+args = ["--login","-c","tmux"]
