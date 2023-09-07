@@ -14,3 +14,6 @@ lines= 40
 [shell]
 program = "/bin/bash"
 args = ["--login","-c","tmux"]
+
+[cursor.style]
+blinking = "Always"
